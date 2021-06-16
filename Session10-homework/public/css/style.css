@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 100%;
+    background-color: #fff;
+}
+.sidebar .form-control .form-label{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar .form-control{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: cornflowerblue;
+}
+.sidebar .form-control input.form-controll{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+}
+
+#ul li {
+    list-style: none;
+    padding-left: 60px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    background-color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.buttonDelete{
+    background-color:darkorange;
+    float: right;
+    border: 1px solid darkorange;
+    height: 30px;
+    width: 50px;
+}
+.buttonDelete:hover{
+    background-color:aqua;
+}
+#ul li:hover{
+    background-color: coral;
+}
+#ul li.click{
+    text-decoration: line-through;
+    color:white;
+    background-color: rgb(96, 224, 102);
+}
+#ul li.click i:hover{
+    
+}
